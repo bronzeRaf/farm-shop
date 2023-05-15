@@ -5,7 +5,7 @@ const slugify = require('slugify');
 const replaceTemplate = require('./modules/replaceTemplate');
 
 /////////////////////////////////
-// FILES
+// Playing with Files
 
 // Blocking, synchronous way
 // const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
@@ -32,7 +32,7 @@ const replaceTemplate = require('./modules/replaceTemplate');
 // console.log('Will read file!');
 
 /////////////////////////////////
-// SERVER
+// Server
 const tempOverview = fs.readFileSync(
   `${__dirname}/templates/template-overview.html`,
   'utf-8'
