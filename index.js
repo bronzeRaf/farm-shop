@@ -46,7 +46,7 @@ const tempProduct = fs.readFileSync(
   'utf-8'
 );
 
-const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
+const data = fs.readFileSync(`${__dirname}/data-mart/data.json`, 'utf-8');
 const dataObj = JSON.parse(data);
 
 const slugs = dataObj.map(el => slugify(el.productName, { lower: true }));
