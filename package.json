@@ -1,7 +1,7 @@
 {
-  "name": "node-farm",
+  "name": "farm-shop",
   "version": "1.0.0",
-  "description": "Learning node.js",
+  "description": "Testing around node.js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
