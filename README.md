@@ -14,7 +14,7 @@ Uses minimum 3rd party packages, so:
 Assuming you have already installed Node.js, you can install dependencies and run the server using:
 
 ```
-npm -i
+npm i
 npm start
 ```
 
